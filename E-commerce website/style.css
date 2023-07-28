@@ -1,0 +1,682 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: black;
+    /* background-image: linear-gradient(to right , black,rgb(72, 67, 67)); */
+    
+}
+
+.hr-dark{
+  background-color: black;
+  /* box-shadow: 1px 1px 4px 1px black; */
+}
+
+.hr-line{
+    border: none;
+    border-top: 2px solid #ccc;
+    margin: 20px 0;
+}
+
+.ul li a{
+    margin-left: 90px;
+    font-size: 25px;
+    font-family: 'Bree Serif', serif;
+
+   
+}
+
+.navbar-brand h1{
+    margin-left: 20px;
+  
+    font-weight: bold;
+  
+    text-shadow: 2px 2px 2px rgb(255, 67, 67);
+}
+
+#nav-li-aqua{
+    color: rgb(66, 255, 170);
+    
+}
+
+nav{
+
+   background-color: black;
+   /* background-image: linear-gradient(to right , rgb(41, 39, 39),rgb(72, 67, 67)); */
+    
+}
+
+
+.form-control {
+ 
+  background-color: #6cffd1;
+
+}
+/* MAIN---------------------------- */
+
+.main{
+    /* background-image: radial-gradient(black,#1a1818); */
+    /* background-color: black; */
+}
+
+
+.main-left img{
+    height: 300px;
+    width: 420px;
+  
+}
+
+.main-right h1{
+    font-size: 70px;
+    color:aqua;
+    font-weight: 800;
+    
+    text-shadow: 2px 2px 2px rgb(255, 255, 255);
+}
+
+.main-right p{
+    color: aqua;
+    font-size: 30px;
+    font-family: 'Bree Serif', serif;
+}
+
+
+
+/* products */
+
+.product-h1{
+    font-size: 40px;
+    color: black;
+    border-radius: 30px;
+    text-shadow: 2px 2px 2px black;
+    font-weight: bold;
+    display: block;
+    margin: 10px auto;
+}
+
+.allcards{
+  width: 15rem;
+}
+
+
+  
+
+.allcards div {
+
+  /* background-image: linear-gradient(to right,rgb(243, 202, 209),rgb(143, 255, 255)); */
+  /* border-radius: 30px; */
+  background-color: #000000;
+  border-radius: 20px;
+ 
+
+  
+
+}
+
+.allcards img{
+    height: 135px;
+    width: 135px;
+    display: block;
+    margin: 0 auto;
+}
+
+.allcards{
+  /* background-color: #333; */
+  /* background-color: #5d6d72; */
+  border-radius: 20px;
+  /* background: radial-gradient(#76b2fe, #b69efe); */
+  background-color: #089dab;
+}
+
+.card-text{
+  font-size: 13px;
+  color: white;
+}
+
+
+/* 
+.card1{
+  
+    background: radial-gradient(#f588d8, #c0a3e5); 
+}
+.card2{ background: radial-gradient(#76b2fe, #b69efe); }
+.card3 { background: radial-gradient(#60efbc, #58d5c9); }
+.card4 {   background: radial-gradient(#1fe4f5, #3fbafe); } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* abouts------------------------------------------------------------------------- */
+
+
+
+.bg-section {
+
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.next-chat-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.next-chat-container h2 {
+
+  /* background: linear-gradient(to right, #0ff, rgb(87, 87, 236), rgb(247, 79, 247), #f00); */
+  /* -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+  color: rgb(0, 195, 255);
+  font-size: 40px;
+  /* font-family: 'Anton', sans-serif;
+  letter-spacing: 4px; */
+ 
+  font-weight: bolder;
+  text-shadow: 3px 3px 30px rgb(0, 0, 0);
+  margin-bottom: 30px;
+}
+
+.next-chat-container p {
+  color: rgb(255, 255, 255);
+  letter-spacing: 3px;
+  margin: 0 15px;
+  font-weight: bolder;
+  
+
+  font-size: 20px;
+  text-shadow: 3px 3px 30px rgb(0, 0, 0);
+  line-height: 1.6;
+}
+
+
+
+
+
+
+/* premium----------------------------------- */
+
+#premium-h1{
+    color: #ffffff;
+    text-align: center;
+    /* margin: 25px 0; */
+    margin-top: 60px;
+    text-shadow: 2px 2px 2px rgb(255, 65, 65);
+    font-weight: 700;
+}
+
+
+.price1{
+    width: 18rem;
+}
+
+.price1{
+    margin: 20px auto;
+    background-image: radial-gradient(rgb(30 218 255) ,rgb(72 253 193));
+    border-radius: 20px;
+
+}
+
+.price1 img{
+    height: 180px;
+    width: 180px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+
+.price1 p{
+    color: rgb(0, 0, 0);
+}
+
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #000000;}
+
+
+.carousel-indicators [data-bs-target] {
+    display: none;
+}
+
+
+/* details---------------------------------------- */
+
+
+.details-container{
+    background-image: linear-gradient(to right , rgb(255, 255, 13), rgb(255, 192, 74));
+}
+
+.details-icons{
+    color: white;
+    font-size: 50px;
+   
+}
+
+.details-icons i{
+    padding: 0 7px;
+}
+
+
+.details-icons {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.details-line h2{
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px rgb(255, 250, 250);
+    font-size: 40px;
+    padding: 10px 0;
+   
+
+}
+
+
+
+
+/* buttonssss-------------------------------------------- */
+
+.Allbtn{
+    margin: 7px;
+}
+
+
+
+
+
+
+
+/* chat----------------------================================================================================ */
+
+
+
+.chat-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .chat-product {
+    flex: 1 1 300px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .chat-product-image {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+  }
+  
+  .chat-product-name {
+    margin: 10px 0;
+  }
+  
+  .chat-product-price {
+    font-weight: bold;
+  }
+  
+  .chat-product-button {
+    background-color: aquamarine;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border: none;
+    font-weight: bolder;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .chat-details {
+    flex: 1 1 300px;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .chat-details h2 {
+    margin-top: 0;
+  }
+  
+  .chat-details ul {
+    list-style-type: none;
+    padding: 0;
+    font-family: 'Bree Serif', serif;
+    margin: 0;
+    text-align: left;
+  }
+  
+  .chat-details ul li {
+    margin: 10px 0;
+    font-family: 'Bree Serif', serif;
+  }
+  
+  .chat-details-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-top: 20px;
+  }
+  
+
+
+
+
+
+  /* info--------------------------------------------------------------------------- */
+
+ .info-container{
+  margin: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  }
+
+
+  .info-left img{
+    height: 140px;
+    width: 140px;
+ 
+    margin-bottom: 10px;
+    border-radius: 20px;
+
+  }
+     
+  .info-right ul li {
+    text-shadow: 1px 1px 1px 1px aquamarine;
+
+  }
+
+
+  .details-row{
+    background-image: linear-gradient(to right,aquamarine,aqua);
+    background-image: radical-gradient(aquamarine,aqua);
+  }
+
+
+
+/* partner----------------------------- */
+
+
+
+.partner-img{
+    /* border: 2px solid red; */
+    margin-left: 40px;
+}
+
+.partner-img1{
+
+    height: 100px;
+    width: 100px;
+}
+.partner-img2{
+
+    height: 90px;
+    width: 110px;
+}
+
+.partner-img3{
+    margin-top: 14px;
+
+    height: 60px;
+    width: 110px;
+}
+
+
+
+
+#boat{
+    font-size: 50px;
+    color: rgb(255, 64, 64);
+  
+}
+
+#mivi{
+    font-size: 50px;
+    color: rgb(80, 255, 64);
+}
+
+#jbl{
+    font-size: 50px;
+    color: rgb(64, 77, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* section */
+
+#section-img{
+    margin-top: -100px;
+    height: 300px;
+    width: 380px;
+}
+
+.section-p{
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    background-image: linear-gradient(to right, rgb(92, 247, 247),rgb(255, 255, 101));
+    border-radius: 20px;
+}
+
+#p1{
+    margin-left: -20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* cusatomer-===================================================================================== */
+
+.customer-heading{
+  text-shadow: 1px 1px 1px #2ffa28;
+}
+
+.customer-container{
+
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px 1px rgb(0, 0, 0);
+  
+}
+
+
+
+
+
+
+
+
+
+/* last------------------------------------------------------------------------------- */
+
+#last-container{
+  background-image: url('images/kisspng-headphones-scalable-vector-graphics-clip-art-wireless-headphones-5a82e14b22da09.0709471315185267951428.png');
+  height: 200px;
+  width: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: block;
+  margin: 0 auto;  
+} 
+
+
+
+
+
+.last-con{
+
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+.left-con img{
+  height: 150px;
+  width: 150px;
+}
+
+.right-con  p{
+  margin-top: 35px;
+  color: rgb(253, 246, 246);
+text-align: center;
+
+
+  
+}
+
+
+
+
+
+  /* footer----------------------------------------------------------------------------------------- */
+
+
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+    
+  }
+  
+  footer h3 {
+  
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  footer ul li {
+    margin-bottom: 10px;
+  }
+  
+  footer ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  footer form {
+    margin-top: 20px;
+  }
+  
+  footer input[type="email"] {
+    border: 4px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    background-color: #000000;
+    padding: 10px;
+    color: white;
+    width: 60%;
+  }
+  
+  footer button[type="submit"] {
+    background-color: #000000;
+    border: none;
+    margin-top: 10px;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: 4px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 767px) {
+    footer {
+      text-align: center;
+    }
+  
+    footer .container {
+      max-width: 100%;
+    }
+  
+    footer ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  
+    footer ul li {
+      margin-right: 20px;
+    }
+  
+    footer ul li:last-child {
+      margin-right: 0;
+    }
+  
+    footer form {
+      margin-top: 40px;
+    }
+  
+    footer input[type="email"] {
+      width: 100%;
+    }
+  
+    footer button[type="submit"] {
+      margin-left: 0;
+      margin-top: 10px;
+    }
+  }
+  
+
+  footer input[type="email"] {
+    width: 100%;
+  }
+
+
+
+  /* last--------------------- */
+
+
+  .last{
+    
+    background-color: #333;
+  }
+
+  .last p{
+    padding: 25px;
+    color: white;
+  }
